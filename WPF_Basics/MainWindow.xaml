@@ -1,12 +1,30 @@
-﻿<Window x:Class="WPF_Basics.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Basics"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="WPF_Basics.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Height="421" VerticalAlignment="Bottom">
+        <Button Content="click me" Height="30" Width="100" FontSize="16"/>
+        <!--Extensible Application Markup Languaje-->
+        <Button Height="30" Width="200" >
+            <Button.FontSize>
+                <System:Double>16</System:Double>
+            </Button.FontSize>
+            <Button.Margin>
+                <Thickness>280,262,264,129</Thickness>
+            </Button.Margin>
+            <Button.Content>
+                <WrapPanel>
+                    <TextBlock Foreground="Gray">Color 1</TextBlock>
+                    <TextBlock Foreground="Red">Color 2</TextBlock>
+                    <TextBlock Foreground="BlueViolet">Color 3</TextBlock>
+                </WrapPanel>
+            </Button.Content>
+        </Button>
+
     </Grid>
 </Window>
