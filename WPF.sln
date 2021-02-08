@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Intro", "WPF_Intro\WPF_Intro.csproj", "{D02A6632-E339-4796-AECF-3E4A39F16E27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_01_Intro", "WPF_Intro\WPF_01_Intro.csproj", "{D02A6632-E339-4796-AECF-3E4A39F16E27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Basics", "WPF_Basics\WPF_Basics.csproj", "{99CE593E-5617-4A7A-884E-9C3A5AE2326B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_02_Basics", "WPF_Basics\WPF_02_Basics.csproj", "{99CE593E-5617-4A7A-884E-9C3A5AE2326B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_03_StackPanel_ListBox_VL_Tree", "WPF_StackPanel_ListBox_VL_Tree\WPF_03_StackPanel_ListBox_VL_Tree.csproj", "{F246D7A4-3F0C-4D51-98E4-C8BD14C07844}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{99CE593E-5617-4A7A-884E-9C3A5AE2326B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99CE593E-5617-4A7A-884E-9C3A5AE2326B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99CE593E-5617-4A7A-884E-9C3A5AE2326B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F246D7A4-3F0C-4D51-98E4-C8BD14C07844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F246D7A4-3F0C-4D51-98E4-C8BD14C07844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F246D7A4-3F0C-4D51-98E4-C8BD14C07844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F246D7A4-3F0C-4D51-98E4-C8BD14C07844}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
