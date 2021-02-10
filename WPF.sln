@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_06_Dependency_Propertie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_07_Data_Binding", "WPF_07_Data_Binding\WPF_07_Data_Binding.csproj", "{0386F1BC-9BB8-43D7-B774-4D792D3082C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_08_INotifyPropertyChanged_Interface", "WPF_08_INotifyPropertyChanged_Interface\WPF_08_INotifyPropertyChanged_Interface.csproj", "{9587EC52-6C5D-4049-9A66-2AAE1C1358A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_09_ListBox_ListCurrentMatches", "WPF_09_ListBox_ListCurrentMatches\WPF_09_ListBox_ListCurrentMatches.csproj", "{7C3D6143-E5B3-4228-B7D3-8AB9036B73CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{0386F1BC-9BB8-43D7-B774-4D792D3082C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0386F1BC-9BB8-43D7-B774-4D792D3082C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0386F1BC-9BB8-43D7-B774-4D792D3082C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9587EC52-6C5D-4049-9A66-2AAE1C1358A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9587EC52-6C5D-4049-9A66-2AAE1C1358A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9587EC52-6C5D-4049-9A66-2AAE1C1358A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9587EC52-6C5D-4049-9A66-2AAE1C1358A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C3D6143-E5B3-4228-B7D3-8AB9036B73CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3D6143-E5B3-4228-B7D3-8AB9036B73CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3D6143-E5B3-4228-B7D3-8AB9036B73CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3D6143-E5B3-4228-B7D3-8AB9036B73CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
