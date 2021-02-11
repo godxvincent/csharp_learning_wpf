@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_08_INotifyPropertyChang
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_09_ListBox_ListCurrentMatches", "WPF_09_ListBox_ListCurrentMatches\WPF_09_ListBox_ListCurrentMatches.csproj", "{7C3D6143-E5B3-4228-B7D3-8AB9036B73CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_10_ComboBox", "WPF_10_ComboBox\WPF_10_ComboBox.csproj", "{994DCCDE-02A6-4AF4-81D0-DC68585B7027}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{7C3D6143-E5B3-4228-B7D3-8AB9036B73CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C3D6143-E5B3-4228-B7D3-8AB9036B73CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C3D6143-E5B3-4228-B7D3-8AB9036B73CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994DCCDE-02A6-4AF4-81D0-DC68585B7027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994DCCDE-02A6-4AF4-81D0-DC68585B7027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994DCCDE-02A6-4AF4-81D0-DC68585B7027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994DCCDE-02A6-4AF4-81D0-DC68585B7027}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
